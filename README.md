@@ -19,7 +19,7 @@ See also article [Category badge adjustment component] on meta.discourse.org.
 ![image](https://meta-s3-cdn.freetls.fastly.net/original/3X/0/e/0ef28f3c081d31e5aefbc5411636b62701133b95.png)
 
 ## Settings
-![image](https://meta-s3-cdn.freetls.fastly.net/original/3X/7/7/7787d538bb00c4f8033bef95993e25df0c48f035.png)
+![image](https://meta-s3-cdn.freetls.fastly.net/original/3X/3/6/36476bdecd138dd9ff524105cf6d1681f6ff9a7f.png)
 - **border_radius**:
   The `border-radius` css attribute to apply to all category badges.
 - **transform_enabled**:
