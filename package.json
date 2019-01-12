@@ -1,0 +1,23 @@
+{
+  "name": "discourse-category-badge-theme-component",
+  "author": "The IP Tools Developers",
+  "bugs": {
+    "url": "https://github.com/ip-tools/discourse-category-badge-theme-component/issues"
+  },
+  "description": "Category badge adjustments for Discourse",
+  "devDependencies": {
+  },
+  "homepage": "",
+  "keywords": [
+    "discourse",
+    "discourse-theme",
+    "discourse-theme-component",
+    "theme"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ip-tools/discourse-category-badge-theme-component.git"
+  },
+  "version": "0.1.0"
+}

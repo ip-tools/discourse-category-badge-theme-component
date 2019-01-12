@@ -6,12 +6,8 @@ Allows to specify the border-radius for category badges and more.
 Primarily made for [Material Design for Discourse].
 
 ## Details
-- Vanilla font sizes
-- Larger category titles
-- Larger avatar images
-- Remove size limit from topic status icon
-- Larger _narrow_ and _verbose_ topic items
-- Smaller font size for topic subject on topic page
+- Allows making edges of category badges less globular
+- Allows to prevent shrinking badges on e.g. /latest
 
 ## Settings
 ```yaml
@@ -20,9 +16,9 @@ border_radius:
 transform_enabled:
   default: true
 ```
-- border_radius:
+- **border_radius**:
   The border radius to apply to all category badges.
-- transform_enabled
+- **transform_enabled**:
   Whether to apply shrink transformation to category badges on e.g. `/latest`.
 
 ## See also
