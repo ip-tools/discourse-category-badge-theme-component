@@ -6,6 +6,8 @@
 .topic-list,
 .latest-topic-list,
 .suggested-topics-message {
+
+    /* Tweak Chip widget */
     .badge-wrapper {
 
         /* Adjust border radius */
@@ -26,4 +28,12 @@
         }
 
     }
+
+    /* Emphasize label */
+    @if $emphasize-label == 'true' {
+        .category-name {
+            font-weight: bolder;
+        }
+    }
+
 }

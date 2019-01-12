@@ -24,6 +24,8 @@ See also article [Category badge adjustment component] on meta.discourse.org.
   The `border-radius` css attribute to apply to all category badges.
 - **transform_enabled**:
   Whether to apply shrink transformation to category badges on e.g. `/latest`.
+- **emphasize_label**:
+  Whether to display category name with `font-weight: bolder`.
 
 ### Defaults
 ```yaml
@@ -31,6 +33,8 @@ border_radius:
   default: ''
 transform_enabled:
   default: true
+emphasize_label:
+  default: false
 ```
 
 ## See also

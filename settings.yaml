@@ -2,3 +2,5 @@ border_radius:
   default: ''
 transform_enabled:
   default: true
+emphasize_label:
+  default: false
