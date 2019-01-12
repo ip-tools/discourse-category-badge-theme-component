@@ -12,12 +12,13 @@ Primarily made for [Material Design for Discourse].
 ## Settings
 ```yaml
 border_radius:
-  default: '6px'
+  default: ''
 transform_enabled:
   default: true
 ```
 - **border_radius**:
   The border radius to apply to all category badges.
+  Use `6px` for a more flat appearance.
 - **transform_enabled**:
   Whether to apply shrink transformation to category badges on e.g. `/latest`.
 

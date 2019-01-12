@@ -8,16 +8,22 @@
 .suggested-topics-message {
     .badge-wrapper {
 
-        /* Less globular */
-        border-radius: $border-radius !important;
+        /* Adjust border radius */
+        @if $border-radius != '' {
 
-        /* Less globular */
-        > span {
-            border-radius: inherit !important;
+            /* Override css attribute */
+            border-radius: $border-radius !important;
+
+            /* Clear attribute from all child elements */
+            > span {
+                border-radius: inherit !important;
+            }
         }
 
         /* Don't shrink badges on e.g. /latest */
-        transform: unset !important;
+        @if $transform-enabled != 'true' {
+            transform: unset !important;
+        }
 
     }
 }

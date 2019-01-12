@@ -1,4 +1,4 @@
 border_radius:
-  default: '6px'
+  default: ''
 transform_enabled:
   default: true
