@@ -1,0 +1,23 @@
+/* Tweak category badges */
+.category-list,
+.category-links,
+.category-drop,
+.title-wrapper,
+.topic-list,
+.latest-topic-list,
+.suggested-topics-message {
+    .badge-wrapper {
+
+        /* Less globular */
+        border-radius: $border-radius !important;
+
+        /* Less globular */
+        > span {
+            border-radius: inherit !important;
+        }
+
+        /* Don't shrink badges on e.g. /latest */
+        transform: unset !important;
+
+    }
+}

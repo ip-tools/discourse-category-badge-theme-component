@@ -1,0 +1,4 @@
+border_radius:
+  default: '6px'
+transform_enabled:
+  default: true
