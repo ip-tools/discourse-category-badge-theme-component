@@ -11,6 +11,7 @@ See also article [Category badge adjustment component] on meta.discourse.org.
 - Optionally adjust `border-radius` css attribute of category badges.
   Use `border_radius = 6px` for a more flat / less globular appearance.
 - Optionally prevent shrinked badges on e.g. `/latest`.
+- Optionally emphasize category label
 
 ## Screenshots
 ### Before
