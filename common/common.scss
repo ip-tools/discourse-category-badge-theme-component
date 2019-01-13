@@ -7,7 +7,9 @@
 .latest-topic-list,
 .suggested-topics-message,
 .select-kit .category-status,
-.reorder-categories {
+.reorder-categories,
+.user-stream,
+{
 
     /* Tweak Chip widget */
     .badge-wrapper {
@@ -40,6 +42,7 @@
 
 }
 
+
 /* Adjust category chooser */
 .category-chooser {
 
@@ -58,4 +61,13 @@
         }
 
     }
+}
+
+
+/* Adjust spacing on user stream */
+.stream-topic-details {
+    margin-bottom: 1rem;
+}
+.stream-topic-title {
+    margin-bottom: 0.3rem;
 }
