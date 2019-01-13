@@ -5,7 +5,8 @@
 .title-wrapper,
 .topic-list,
 .latest-topic-list,
-.suggested-topics-message {
+.suggested-topics-message,
+.select-kit .category-status {
 
     /* Tweak Chip widget */
     .badge-wrapper {
@@ -36,4 +37,24 @@
         }
     }
 
+}
+
+/* Adjust category chooser */
+.category-chooser {
+
+    /* Add gap between category elements*/
+    .selected-name {
+        span + span {
+            margin-left: 10px;
+        }
+    }
+
+    /* Clear "color" attribute from badge label elements */
+    .badge-wrapper {
+
+        .badge-category {
+            color: unset !important;
+        }
+
+    }
 }
