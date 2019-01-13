@@ -42,19 +42,22 @@ emphasize_label:
 - [Daemonite Material Theme: Ample layout adjustments]
 
 ## Example
-- [IP Software Community Helpdesk]
+- [The IP Software Community]
 
 ## Credits
-- Material Master [Maya Ma]
+- [Geoff Bowers] and Material Master [Maya Ma] of [Daemon Labs] fame
 - The whole [Discourse Team] and all contributors
 
 Thanks for all your hard work on [Discourse] and [Material Design for Discourse]!
 
 [Discourse]: https://discourse.org
 [Material Design for Discourse]: https://github.com/Daemonite/discourse-material-theme
+[The IP Software Community]: https://meta.ip-tools.org/
+
 [Maya Ma]: https://github.com/sesemaya
+[Geoff Bowers]: https://meta.discourse.org/u/modius
+[Daemon Labs]: https://www.daemon.com.au/
 [Discourse Team]: https://www.discourse.org/team
-[IP Software Community Helpdesk]: https://meta.ip-tools.org/
 
 [Category badge adjustment component]: https://meta.discourse.org/t/category-badge-adjustment-component/106366
 [Daemonite Material Theme: Ample layout adjustments]: https://meta.discourse.org/t/daemonite-material-theme-ample-layout-adjustments/106379
